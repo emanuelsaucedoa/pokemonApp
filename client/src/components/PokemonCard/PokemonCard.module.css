@@ -1,0 +1,98 @@
+.containerCard {
+    background-image: url(../../imagenes/fondo-card.png);
+    background-position: center;
+    background-size: cover;
+    height: 275px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 0.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px 0px rgb(0, 0, 0, 0.5);
+    transition: ease 250ms;
+    border: 1px solid rgb(0, 0, 0, 0.50);
+}
+
+.containerCard:hover {
+    transform: scale(1.025);
+    transition: ease 250ms;
+}
+
+.card {
+    width: 95%;
+    height: 95%;
+    margin: 10px;
+    border-radius: 0.25rem;
+    background-color: rgb(250, 204, 119, 0.85);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card .pokemon {
+    width: 100px;
+    height: 100px;
+    filter: drop-shadow(0 2px 5px rgb(0, 0, 0));
+    transition: 0.2s ease;
+    border-radius: 50%;
+}
+
+@keyframes pulse{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(20deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+
+.fondoImg {
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 40%;
+    border-radius: 0.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px rgb(255, 166, 0, 0.75);
+}
+
+.containerCard h2{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.types {
+    display: flex;
+}
+
+.types img{
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+
+.types p {
+    padding: 2px;
+    font-size: 14px;
+    font-weight:bold;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    background-color: rgb(255, 255, 255, 0.25);
+    border-radius: 0.25rem;
+    padding: 10px;
+}
+
+.link:hover{
+    cursor: pointer;
+}

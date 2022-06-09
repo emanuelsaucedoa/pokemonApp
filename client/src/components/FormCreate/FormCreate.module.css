@@ -1,0 +1,156 @@
+.container {
+    width: 80vw;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 1rem;
+}
+
+.container input:focus {
+    outline: none;
+}
+
+.container input {
+
+    border-radius: 0.25rem;
+    background-color: rgb(250, 204, 119, 0.90);
+    border: 1px solid grey;
+    margin: 2px;
+    padding: 5px;
+    font-family: 'Kanit', sans-serif;
+                                                
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .form h2 {
+    font-size: 30px;
+    margin-bottom: 25px ;
+
+}
+
+.danger {
+    border: 2px solid rgb(255, 0, 0, 0.5);
+}
+
+.question {
+    color: black;
+}
+
+.containerStats {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerTypes {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.types {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.errorCase {
+    display: flex;
+    flex-direction: column;
+}
+
+.errorCase input {
+    max-width: 150px;
+}
+
+.errorCase p {
+    max-width: 150px;
+    font-size: 12px;
+    border: none;
+    color: rgb(255, 0, 0, 0.5);
+}
+
+.checkbox {
+    margin: 5px;
+}
+
+.checkbox label {
+    cursor: pointer;
+}
+
+.checkbox div label input[type='checkbox'] {
+    display: none;
+}
+
+.checkbox div label span {
+    position: relative;
+    display: inline-block;
+    background-color: rgb(255, 255, 255, 0.25);
+    border: 1px solid rgb(0, 0, 0, 0.25);
+    padding: 5px 10px;
+    color: #555;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-size: 16px;
+    user-select: none;
+    overflow: hidden;
+    text-transform: capitalize;
+}
+
+.checkbox div label span::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    
+}
+
+.checkbox div label input[type='checkbox']:checked~span {
+    border: 1px solid rgb(0, 0, 0, 0.25);
+    background: rgb(0, 128, 0, 0.5);
+    color: #fff;
+    box-shadow: 0 1px 3px green;
+}
+
+
+.containerBtn{
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerBtnInput{
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
+

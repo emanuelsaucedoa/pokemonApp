@@ -1,0 +1,49 @@
+.container{
+    height: 100vh;
+    width: 80vw;
+    margin: auto;
+    
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1{
+    font-size: 30px;
+}
+
+.container p{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .link{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .link:hover{
+    animation: pulse 1.5s ease;
+    cursor: pointer;
+    filter: drop-shadow(0 1px 3px rgb(0, 0, 0));
+}
+
+@keyframes pulse{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(20deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+

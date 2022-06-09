@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+}
+
+body {
+  background-image: url(imagenes/fondogif.gif);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Kanit', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+

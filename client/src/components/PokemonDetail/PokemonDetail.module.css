@@ -1,0 +1,144 @@
+.fullContainer{
+    width: 80vw;
+    margin: auto;
+    min-height: 100vh;
+}
+
+.containerPokemon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card {
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .pikachuGif {
+    width: 200px;
+    margin-top: 300px;
+}
+
+.card .info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .info .icono img {
+    width: 30px;
+    height: 30px;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    align-self: center;
+    filter: drop-shadow(0 2px 5px rgb(0, 0, 0));
+}
+
+.card .info img {
+    height: 300px;
+    width: 300px;
+
+}
+
+.imageTwo {
+    filter: drop-shadow(0 2px 3px rgb(0, 0, 0, 0.25));
+}
+
+.nameTypes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nameTypes p{
+    margin: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.stats{
+    margin-top: 45px;
+    width: 25%;
+    background-color: rgba(0, 0, 0, 0.3);
+    filter: drop-shadow(0 1px 3px rgb(0, 0, 0));
+    border-radius: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.green{
+    color: rgb(0, 128, 0, 1);
+    text-align: center;
+    padding: 5px;
+}
+
+.red{
+    color: rgb(255, 0, 0, 0.75);
+    text-align: center;
+    padding: 5px;
+}
+
+.black{
+    color: rgb(0, 0, 0, 0.75);
+    text-align: center;
+    padding: 5px;
+}
+
+.blue{
+    color: rgb(0, 0, 255, 0.75);
+    text-align: center;
+    padding: 5px;
+}
+
+.pink{
+    color: rgb(255, 192, 203, 0.75);
+    text-align: center;
+    padding: 5px;
+}
+
+.violet{
+    color: rgb(238, 130, 238, 0.75);
+    text-align: center;
+    padding: 5px;
+}
+
+
+@media (max-width: 600px) {
+    .card .info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .stats{
+        margin-top: 45px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        filter: drop-shadow(0 1px 3px rgb(0, 0, 0));
+        border-radius: 0.25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 3rem;
+        margin-bottom: 3rem;
+    }
+
+
+  }
+  

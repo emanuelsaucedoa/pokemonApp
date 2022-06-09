@@ -1,0 +1,110 @@
+.container{
+    min-height: 100px;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .filtros{
+    min-height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.container .filtros .formFilter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.container .filtros .find div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+.container .filtros div select{
+    background-color: rgb(250, 204, 119, 0.90);
+    border: 1px solid gray;
+    text-align: center;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+    width: 100%;
+}
+
+.container .filtros div select:hover{
+    background-color: rgb(255, 255, 255, 0);
+    border: 1px solid rgb(250, 204, 119, 0.25);
+    color: white;
+    
+}
+
+.container .filtros div input{
+    background-color: rgb(250, 204, 119, 0.90);
+    border: 1px solid grey;
+    font-family: 'Kanit', sans-serif;                                          
+    width: 100%;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+
+}
+
+.container .filtros div input:focus{
+    outline: none;
+}
+
+.container .find div input{
+    background-color: rgb(250, 204, 119, 0.90);
+    border: 1px solid grey;
+    font-family: 'Kanit', sans-serif;
+                                                
+}
+
+.container .find div input:focus{
+    outline: none;
+
+}
+
+.input:hover{
+    cursor: pointer;
+}
+
+
+@media all and (max-width: 600px) {
+    .container .filtros{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

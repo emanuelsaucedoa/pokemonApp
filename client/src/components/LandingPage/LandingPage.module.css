@@ -1,0 +1,43 @@
+.container{
+    min-height: 100vh;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img{
+    width: 300px;
+    filter: sepia(25%);
+}
+
+.link{
+    text-decoration: none;
+}
+
+.link img{
+    width: 100px;
+    filter: sepia(50%);
+    border-radius: 50%;
+    transition: 0.4s ease;
+    animation: pulse 1.5s infinite;
+}
+
+.link img:hover{
+    filter: sepia(0%);
+    transition: 0.4s ease;
+}
+
+@keyframes pulse{
+    0%{
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.85);
+    }
+    50%{
+        box-shadow: 0 0 0 25px rgba(255, 255, 255, 0);
+    }
+    100%{
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+}

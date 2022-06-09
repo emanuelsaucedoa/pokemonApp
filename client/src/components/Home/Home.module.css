@@ -1,0 +1,32 @@
+.containerComponents{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.pikachuGif{
+    width: 200px;
+    margin-top: 125px;
+}
+
+.containerError .error{
+    margin-top: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerError .error img{
+    width: 100px;
+}
