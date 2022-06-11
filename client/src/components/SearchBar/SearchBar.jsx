@@ -34,7 +34,7 @@ const SearchBar = () => {
   const submit = (e) => {
     e.preventDefault();
     if(state){
-      history.push(`/home/pokemon/${state}`)
+      history.push(`/home/pokemon/${state.toLocaleLowerCase()}`)
     setState("");
     }
     
@@ -181,7 +181,7 @@ const SearchBar = () => {
     let array = []
 
     backup.map(p => {
-      if (p.name.includes(state2)) {
+      if (p.name.includes(state2.toLocaleLowerCase())) {
         return array.push(p)
       }
     })
